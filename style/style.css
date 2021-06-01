@@ -89,14 +89,14 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #A80000;
+{ background: #ca0202;
   height: 240px;}
 
 #logo
 { width: 900px;
   position: relative;
   height: 168px;
-  background: #A80000 url(fuas.png) no-repeat;}
+  background: #ca0202 url(fuas.png) no-repeat;}
 
 #logo #logo_text 
 { position: absolute; 

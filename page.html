@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>colour_red - a page</title>
+  <title>Pagina Fuas</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -38,7 +38,41 @@
       </div>
       <div id="content">
         <!-- insert the page content here -->
+         <title>FORMULARIO ONG</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+</head>
+<body>
+    
+    <h1>FORMULARIO FUAS</h1>
+
+
+<form id="formulario" name="formContacto" method="post" action="process.php" >
+	<label for="nombre">Nombre Completo*:</label>
+	<input name="name" placeholder="Introduzca el nombre" class="required" /><br />
+                
+	<label for="rut o pasaporte">Rut/Pasaporte*:</label>
+	<input name="rut" placeholder="Ingrese su rut/pasaporte" class="required" /><br />
+    
+	<label for="ciudad">Ciudad de residencia:</label>
+	<input name="city" placeholder="Ingrese su cuidad de residencia" /><br />
+            
+	<label for="telefono">Teléfono:</label>
+	<input name="phone" placeholder="Ingrese su numero telefonico" /><br />
         
+	<label for="mail">E-mail*:</label>
+	<input name="mail" placeholder="Ingrese su email" class="required" /><br />
+            
+	<label id="modif01" for="comentario">Comentario:</label>
+	<textarea id="modif02" placeholder="Escriba un comentario aquí...." name="comment"></textarea><br />
+                    
+	<div id="aster" > * | Campos obligatorios</div>
+                            
+	<input class="botonAcceder" type="submit" id="boton" value="Enviar" />
+    
+	<input class="restablecer" type="reset" id="botom" value="Limpiar" >
+</form>  
+
       </div>
     </div>
     <div id="content_footer"></div>
